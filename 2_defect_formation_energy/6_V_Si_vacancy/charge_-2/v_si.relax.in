@@ -14,7 +14,6 @@
   occupations = 'smearing'
   smearing    = 'gaussian'
   degauss     = 0.01
-  assume_isolated = 'mp'
 /
 &ELECTRONS  
 conv_thr = 1.0d-5
