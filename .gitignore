@@ -1,0 +1,13 @@
+tmp/*
+!tmp/.gitkeep
+*.save/
+*.out
+*.dat
+*.dat.gnu
+*.dat.rap
+*.wfc*
+*.xml
+*.png
+*.o[0-9]*
+*.e[0-9]*
+!.gitkeep
