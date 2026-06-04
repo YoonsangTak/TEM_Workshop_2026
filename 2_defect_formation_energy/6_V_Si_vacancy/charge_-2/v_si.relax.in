@@ -11,6 +11,9 @@
   tot_charge = -2
   ecutwfc = 30.0
   ecutrho = 240.0
+  occupations = 'smearing'
+  smearing    = 'gaussian'
+  degauss     = 0.01
   assume_isolated = 'mp'
 /
 &ELECTRONS  
