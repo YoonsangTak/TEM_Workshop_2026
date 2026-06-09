@@ -1,5 +1,5 @@
 #!/bin/sh
-#PBS -N qe_5_Si_Sub_0
+#PBS -N qe_5_S_Si_0
 #PBS -V              
 #PBS -q debug
 #PBS -A qe
