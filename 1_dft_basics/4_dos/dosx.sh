@@ -1,5 +1,5 @@
 #!/bin/sh 
-#PBS -N si_bands_pp 
+#PBS -N qe_4_dosx 
 #PBS -q debug 
 #PBS -A qe 
 #PBS -l select=1:ncpus=68:mpiprocs=16:ompthreads=1 
