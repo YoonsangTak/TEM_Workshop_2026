@@ -1,5 +1,5 @@
 #!/bin/sh
-#PBS -N qe_si
+#PBS -N qe_5_Si_Sub_0
 #PBS -V              
 #PBS -q debug
 #PBS -A qe
@@ -13,8 +13,6 @@ module load craype-mic-knl
 module load intel/19.0.5 impi/19.0.5
 module load qe/7.2
 
-# 계산 실행 — INPUT_FILE만 바꿔가며 재사용
 INPUT=s_si.relax.in
 OUTPUT=${INPUT%.in}.out
 mpirun -np 16 pw.x -in $INPUT > $OUTPUT
-
