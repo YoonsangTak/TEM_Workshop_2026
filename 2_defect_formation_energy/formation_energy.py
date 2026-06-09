@@ -25,7 +25,6 @@ Chemical potential limits:
 
 Notes:
   - Raw QE total energies are used.
-  - QE "Total+Makov-Payne energy" lines are ignored.
   - No finite-size charge correction is applied.
 ========================================================================
 """
