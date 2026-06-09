@@ -7,7 +7,6 @@ Only S_Si charge states are shown:
 
 No V_Si comparison in this script.
 No charged-defect correction is applied.
-QE "Total+Makov-Payne energy" lines are ignored.
 """
 
 import os
