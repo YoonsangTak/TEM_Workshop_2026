@@ -1,6 +1,6 @@
 #!/bin/sh 
 #PBS -N qe_3_bandsx_pp 
-#PBS -q debug 
+#PBS -q gachon
 #PBS -A qe 
 #PBS -l select=1:ncpus=68:mpiprocs=16:ompthreads=1 
 #PBS -l walltime=00:10:00 

@@ -1,7 +1,7 @@
 #!/bin/sh
 #PBS -N qe_5_S_Si_1
 #PBS -V              
-#PBS -q debug
+#PBS -q gachon
 #PBS -A qe
 #PBS -l select=1:ncpus=68:mpiprocs=16:ompthreads=1
 #PBS -l walltime=01:00:00
