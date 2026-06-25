@@ -2,7 +2,7 @@
 #PBS -N qe_4_dosx 
 #PBS -q gachon
 #PBS -A qe 
-#PBS -l select=1:ncpus=68:mpiprocs=16:ompthreads=1 
+#PBS -l select=1:ncpus=16:mpiprocs=4:ompthreads=4
 #PBS -l walltime=00:10:00 
 
 cd $PBS_O_WORKDIR 
